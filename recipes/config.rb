@@ -1,6 +1,6 @@
 # create the directories
 [node['k9']['config_path'], node['k9']['config']['pruning_configs_dir']].each do |path|
-  directory ::File.dirname(path) do
+  directory path do
     owner node['k9']['user']
     group node['k9']['group']
     recursive true

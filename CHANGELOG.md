@@ -3,6 +3,10 @@ k9 CHANGELOG
 
 This file is used to list changes made in each version of the k9 cookbook.
 
+0.1.1
+-----
+- Minor bug fixes
+
 0.1.0
 -----
 - Initial release of k9
